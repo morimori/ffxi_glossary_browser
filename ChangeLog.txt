@@ -1,0 +1,2 @@
+2010-12-27 Takatoshi -morimori- MORIYAMA
+* version 0.9

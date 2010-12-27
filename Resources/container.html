@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <base href="http://wiki.ffo.jp/html/" />
+  <title></title>
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+      font-style: normal;
+      text-decoration: none;
+      font-size: 100%;
+    }
+    body {
+      padding: 4px;
+      font-size: 90%;
+      line-height: 140%;
+    }
+    h1 {
+      background-color: #EFEFFF;
+      border-bottom: 2px solid #999;
+      border-left: 5px solid #999;
+      color: black;
+      font-size: 160%;
+      font-weight: bold;
+      line-height: 140%;
+      margin: 16px 0px 12px;
+      padding: 8px 4px;
+      text-align: left;
+      vertical-align: bottom;
+    }
+    h2 {
+      background-color: #EFEFFF;
+      border-bottom: 1px solid #999;
+      border-left: 2px solid #999;
+      color: black;
+      font-size: 140%;
+      font-weight: bold;
+      height: 24px;
+      line-height: 120%;
+      margin: 16px 0px 12px;
+      padding: 8px 4px;
+      vertical-align: bottom;
+    }
+    h3 {
+      background-color: #EFEFFF;
+      border-left: 2px solid #999;
+      color: black;
+      font-size: 120%;
+      font-weight: bold;
+      height: 20px;
+      line-height: 120%;
+      margin: 16px 0px 12px;
+      padding: 4px;
+      vertical-align: bottom;
+    }
+    blockquote {
+      background-color: #EFFFFF;
+      border: 1px solid #999;
+      font-size: 90%;
+      margin: 10px 10px 10px 20px;
+      padding: 10px;
+    }
+    pre {
+      margin: 10px 10px 10px 20px;
+      padding: 10px 10px 10px 10px;
+      font-size: 90%;
+      background-color: #efffff;
+      border: solid 1px #999;
+      white-space: pre;
+      line-height: 110%;
+      font-family: MS P ゴシック, Osaka, MS Gothic, Arial, sans-serif;
+    }
+    table {
+      border: 1px solid #999;
+      border-collapse: collapse;
+      margin: 4px;
+    }
+    thead {
+      background-color: #F7F7FF;
+      border: 1px solid #999;
+      border-collapse: collapse;
+      font-weight: bold;
+      padding: 4px;
+      text-align: center;
+    }
+    td {
+      border: 1px solid #999;
+      border-collapse: collapse;
+      padding: 4px;
+    }
+  </style>
+  <script type="text/javascript" src="../jquery.js"></script>
+  <script type="text/javascript">
+    function clickHook(elem, context) {
+      var url = $(elem).attr('href');
+      if (url.substr(0,1) == '#') {
+        location.hash = url;
+      } else {
+        Ti.App.fireEvent(context + 'LinkClick', {
+          url: url,
+          word: $(elem).text()
+        });
+      }
+      return false;
+    }
+  </script>
+</head>
+<body></body>
+</html>

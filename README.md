@@ -2,7 +2,7 @@
  iPhone用「FF11用語辞典 ～ ウィンダスの仲間たち版」ブラウザ
 
 ## ヴァナ語辞典とは ##
-「FF11用語辞典 ～ ウィンダスの仲間たち版」を iPhone で快適に見るためのブラウザです。<br>
+「FF11用語辞典 ～ ウィンダスの仲間たち版」を iPhone で快適に見るためのブラウザです。  
 Titanium Mobile を使って作られていますので、Android でも動くかもしれません。
 
 ### 主な機能 ###
@@ -14,5 +14,5 @@ Titanium Mobile を使って作られていますので、Android でも動く�
 「FF11用語辞典 ～ ウィンダスの仲間たち版」の管理者様、記事を更新されているユーザの皆様に感謝いたします。
 
 ## ライセンス ##
-Copyright © 2010 Takatoshi -morimori- MORIYAMA.<br>
+Copyright © 2010 Takatoshi -morimori- MORIYAMA.  
 MIT-LICENSE.ja をお読みください。
